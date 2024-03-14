@@ -9,7 +9,7 @@ public class Carros {
     public void cor(){
 
     }
-    public void kilometragem(){
+    public void marca(){
 
     }
 }

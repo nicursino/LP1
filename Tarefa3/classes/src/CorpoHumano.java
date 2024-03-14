@@ -1,6 +1,6 @@
 public class CorpoHumano {
-    String sexo;
-    String cor;
+    String nome;
+    String idade;
     String altura;
 
     public void falar(){
