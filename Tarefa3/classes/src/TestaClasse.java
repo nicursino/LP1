@@ -42,7 +42,7 @@ class Roupas {
     private String tamanho;
     private String cor;
 
-    public Roupas(String marca, String modelo) {
+    public Roupas(String tamanho, String cor) {
         this.tamanho = tamanho;
         this.cor = cor;
     }
@@ -56,24 +56,33 @@ class Roupas {
     }
 }
 
-// Classe Lojas
-class Lojas {
-    private String local;
-    private String tipo;
+class Celular {
+    private String marca;
+    private String cor;
 
-    public Lojas(String marca, String modelo) {
-        this.local = local;
-        this. = cor;
+    public Celular(String marca, String cor){
+        this.marca = marca;
+        this.cor = cor;
     }
 
-    public void comprar(){
-        System.out.println("A roupa da cor " + cor + " " + tamanho + "." );
-    }
+    public void ligar() {System.out.println("vou comprar um celular pra você da cor " + cor + "e da " + marca );}
 
-    public void devolver(){
-        System.out.println("vim devolver a roupda da " + cor + " " + tamanho + "." );
-    }
+    public void conversar() {System.out.println("essa " + marca + "com essa " + cor + "é muito podre");}
 }
+
+class Corpo_humano {
+    private int idade;
+    private int altura;
+
+    public Corpo_humano (int idade, int altura){
+        this.idade = idade;
+        this.altura = altura;
+    }
+
+    public void falar(){System.out.println("ele tem " + idade + "anos e " + altura + "m");}
+    public void ouvir(){System.out.println("ele é muito velho tem " + idade + "e muito baixo só tem " + altura + "m");}
+}
+
 
 // Classe TestaClasse
 public class TestaClasse {
@@ -81,6 +90,8 @@ public class TestaClasse {
         Pessoa pessoa = new Pessoa("João", 30);
         Carro carro = new Carro("Toyota", "Corolla");
         Roupas roupas = new Roupas("preto", "GG");
+        Celular celular = new Celular("iphone", "branco");
+        Corpo_humano corpo_humano = new Corpo_humano(89, 145);
 
         // Chamando métodos da classe Pessoa
         pessoa.apresentar();
@@ -93,6 +104,15 @@ public class TestaClasse {
         // Chamando métodos da classe Roupas
         roupas.comprar();
         roupas.devolver();
+
+        // Chamando métodos da classe Celular
+        celular.ligar();
+        celular.conversar();
+
+        // Chamando métodos da classe Corpo_humano
+        corpo_humano.falar();
+        corpo_humano.ouvir();
+
 
 
     }
