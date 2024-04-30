@@ -20,10 +20,6 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
-    Pessoa(String joão, int i) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
     // Getters e setters
 
     public String getNome() {

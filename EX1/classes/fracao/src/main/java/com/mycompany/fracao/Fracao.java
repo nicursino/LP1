@@ -44,11 +44,11 @@ public class Fracao {
         Fracao frac1 = new Fracao(1, 2);
         Fracao frac2 = new Fracao(3, 4);
 
-        System.out.println("Fração 1: " + frac1);
-        System.out.println("Fração 2: " + frac2);
+        System.out.println("Fracao 1: " + frac1);
+        System.out.println("Fracao 2: " + frac2);
         System.out.println("Soma: " + frac1.soma(frac2));
-        System.out.println("Subtração: " + frac1.subtracao(frac2));
-        System.out.println("Multiplicação: " + frac1.multiplicacao(frac2));
-        System.out.println("Divisão: " + frac1.divisao(frac2));
+        System.out.println("Subtracao: " + frac1.subtracao(frac2));
+        System.out.println("Multiplicacao: " + frac1.multiplicacao(frac2));
+        System.out.println("Divisao: " + frac1.divisao(frac2));
     }
 }
