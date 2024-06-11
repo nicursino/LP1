@@ -1,0 +1,6 @@
+com\mycompany\crud\CRUD.class
+com\mycompany\crud\ConexaoDB.class
+com\mycompany\crud\Usuario.class
+com\mycompany\crud\UsuarioDAO.class
+com\mycompany\crud\Main.class
+com\mycompany\crud\Main$1.class
